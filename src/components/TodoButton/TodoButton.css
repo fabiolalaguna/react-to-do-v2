@@ -1,0 +1,28 @@
+.CreateTodoButton {
+  border: none;
+  background-color: #0984e3;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  font-size: 5rem;
+  color: #ffff;
+
+  /* background-image: url("./add.svg"); */
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+
+  /* box-shadow: -5px 5px 5px -5px #4f46e5; */
+
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.CreateTodoButton:hover {
+  transform: rotate(90deg);
+}

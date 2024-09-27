@@ -1,0 +1,21 @@
+.ModalCss {
+  width: 50rem;
+  max-width: 55rem;
+  height: 40dvh;
+  background-color: rgba(79, 70, 229, 0.99);
+  /* border: 1px solid #090b10; 
+	box-shadow: -5px 5px 5px -5px #090b10;*/
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #090b10;
+  font-weight: 600;
+
+  position: fixed;
+  top: 20rem;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+}

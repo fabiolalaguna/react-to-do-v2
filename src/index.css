@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.598), rgba(0, 0, 0, 0.489)),
+    url(/public/todo.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding: 4rem 1.5rem 2rem; */
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.todo-img {
+}
+
+.md-bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.527);
+  /* background-color: rgba(1, 18, 32, 0.347); */
+  opacity: 3;
+}

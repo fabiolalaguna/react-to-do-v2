@@ -1,0 +1,63 @@
+/* .icon-check-active {
+  background-color: rgb(51, 0, 128);
+  color: red;
+}
+
+.todoItem-p {
+  color: #333;
+}
+
+.todoItem-p--complete {
+  text-decoration: line-through;
+} */
+
+/* .icon {
+  color: green;
+} */
+li {
+  list-style: none;
+  background-color: #d9dfe1;
+  width: 45rem;
+  height: 6rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.2rem;
+
+  position: relative;
+}
+
+span {
+  font-size: 1.7rem;
+}
+
+.icon-check {
+  /* background-image: url("../svg/check.svg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* width: 50px;
+  height: 20px; */
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon-check-active {
+  color: green;
+  /* background-color: green; */
+}
+.delete {
+  font-size: 25px;
+}
+
+.delete:hover {
+  cursor: pointer;
+  color: red;
+  /* background-image: url("../svg/delete-hover.svg"); */
+}
+
+.todoItem-p--complete {
+  text-decoration: line-through;
+  color: #0984e3;
+}

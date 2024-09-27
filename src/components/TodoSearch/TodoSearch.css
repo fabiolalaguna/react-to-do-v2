@@ -1,0 +1,27 @@
+input {
+  margin: 1.5rem auto 2rem;
+  display: flex;
+  width: 35rem;
+  height: 4rem;
+  border-radius: 10px;
+  padding: 1rem;
+
+  /* background-image: url("../svg/search.svg");
+  background-repeat: no-repeat;
+  background-position: 202px center; */
+
+  border: 1px solid #0984e3;
+  box-shadow: -5px 5px 5px -5px #0984e3;
+
+  /* background: rgba(255, 255, 255, 0.1); 
+  background: hsla(0,0%,100%,.5); */
+
+  background-color: #fffafa;
+  color: #222325;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: #222325;
+}

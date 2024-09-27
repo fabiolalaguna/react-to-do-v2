@@ -1,0 +1,57 @@
+form {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  /* justify-items: center; */
+}
+
+label {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #eee;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+textarea {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background-color: #cbd5e1;
+  max-width: 20rem;
+  min-width: 40rem;
+  max-height: 12rem;
+  min-height: 14rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TodoForm {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 10px;
+  width: 10rem;
+  cursor: pointer;
+  color: bold;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.cancel {
+  background-color: #cbd5e1;
+}
+
+.save {
+  background-color: #090b10;
+  color: #cbd5e1;
+}
